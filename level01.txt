@@ -1,0 +1,7 @@
+grep -r "flag01" /etc > /tmp/t.txt
+
+recuperer le code dans tmp/t.txt
+puis on utilise john :
+on enregistre le code dans un ficher passwd qu'on a creer
+./john --wordlist=password.lst --rules passwd 
+puis vim john.pot pour obtenir le mot de pass

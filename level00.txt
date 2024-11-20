@@ -1,0 +1,11 @@
+Creer un fichier txt a mettre dans tmp
+find / -user flag00 > /tmp/test.tx 
+la redirection permet de retirer les permission denied
+
+cat les resultats trouver
+puis mettre le resultat dans : https://www.dcode.fr/identification-chiffrement (resultat: chiffre affine)
+
+su flag00
+mettre le mdp trouver grace a decode
+
+faire getflag, copier coller le flag dans le password dans su level01
